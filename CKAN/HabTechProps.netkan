@@ -1,0 +1,32 @@
+{
+  "spec_version"        : "v1.4",
+  "identifier"          : "HabTechProps",
+  "$kref"               : "#/ckan/github/benjee10/HabTechProps",
+  "abstract"            : "Shared props for Benjee10 mods",
+  "author"              : "benjee10",
+  "license"             : "CC-BY-NC-ND",
+  "release_status"      : "stable",
+  "$vref"               : "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://github.com/benjee10/HabTechProps",
+    "repository": "https://github.com/benjee10/HabTechProps"
+  },
+  "depends": [
+
+  ],
+  "recommends": [
+      { "name" : "HabTech2" },
+      { "name" : "reDIRECT" },
+      { "name" : "Shuttle-Orbiter-Construction-Kit" },
+      { "name" : "Benjee10MMSEV" },
+      { "name" : "Waterfall" }
+  ],
+  "install" : [
+      { "find" : "HabTechProps",
+        "install_to" : "GameData"
+      }
+  ],
+  "tags": [
+      "library"
+]
+}
