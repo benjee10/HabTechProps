@@ -11,22 +11,12 @@
     "homepage": "https://github.com/benjee10/HabTechProps",
     "repository": "https://github.com/benjee10/HabTechProps"
   },
-  "depends": [
-
-  ],
   "recommends": [
-      { "name" : "HabTech2" },
-      { "name" : "reDIRECT" },
-      { "name" : "Shuttle-Orbiter-Construction-Kit" },
-      { "name" : "Benjee10MMSEV" },
-      { "name" : "Waterfall" }
+      { "name" : "HabTech2" }
   ],
   "install" : [
       { "find" : "HabTechProps",
         "install_to" : "GameData"
       }
-  ],
-  "tags": [
-      "library"
-]
+  ]
 }
